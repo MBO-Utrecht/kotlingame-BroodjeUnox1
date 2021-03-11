@@ -1,5 +1,13 @@
 fun main(args: Array<String>) {
-    val yourName = Player("x", 4, 1, 0)
+    val steven = Player("x", 4, 1, 0)
 
-    yourName.show()
+
+
+    val baksteen = Weapon("Baksteen", 15)
+
+    steven.Weapon = baksteen
+
+
+
 }
+
